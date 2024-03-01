@@ -36,3 +36,167 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: #2c3e50 !important;
+}
+
+nav .navbar-nav li a {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+nav .navbar-nav li a.active {
+  background-color: #1abc9c;
+}
+
+#foote {
+  background-color: #2c3e50;
+}
+
+#foote ul li i {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1a252f;
+}
+
+.fitCon {
+  width: fit-content;
+}
+
+#mainHome .iconss::after,
+#about .iconss::after {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 18;
+}
+
+#mainHome .iconss::before,
+#about .iconss::before {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: -18px;
+}
+
+#mainHome {
+  background-color: #1abc9c;
+  min-height: 75vh;
+  padding: 12% 0 7% 0;
+}
+
+#about {
+  background-color: #1abc9c;
+  padding-top: 10%;
+  min-height: 97vh;
+}
+
+#contant {
+  padding-top: 10%;
+  min-height: 97vh;
+}
+
+#contant .iconss::after {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  right: 18;
+}
+
+#contant .iconss::before {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  left: -18px;
+}
+
+#contant input {
+  border-bottom: 0.1px solid rgb(81, 81, 81) !important;
+  padding: 0 10px;
+  transition: all 0.5s;
+}
+
+#contant input:focus {
+  outline: 0 !important;
+}
+
+#contant .inputs label {
+  left: 0;
+  top: 40%;
+  opacity: 0;
+  transition: all 0.5s ease;
+  color: #1abc9c;
+}
+
+#contant input:not(:placeholder-shown) ~ label {
+  opacity: 1;
+  top: 10px;
+}
+
+#portfolio {
+  padding-top: 10%;
+  min-height: 97vh;
+}
+
+#portfolio .col-md-4 .btn {
+  border-width: 0;
+}
+
+#portfolio .iconss::after {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  right: 18;
+}
+
+#portfolio .iconss::before {
+  content: "";
+  height: 5px;
+  width: 50%;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 50%;
+  left: -18px;
+}
+
+#portfolio .layout {
+  top: 48px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(47, 255, 189, 0.492);
+  opacity: 0;
+}
+
+#portfolio .layout i {
+  font-size: 75px;
+}
+
+#portfolio .layout:hover {
+  opacity: 1;
+}
+
+#foote ul li i {
+  transition: all 0.5s;
+}
+#foote ul li i:hover {
+  background-color: #1abc9c;
+}

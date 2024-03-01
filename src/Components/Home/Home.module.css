@@ -1,0 +1,33 @@
+.home{
+  height: 95vh;
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
+.text h1{
+  position: relative;
+}
+
+.text h1::after{
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 5px;
+  background-color: #063848;
+  right: 205px;
+  bottom: -40px;
+}
+
+.text h1::before{
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 5px;
+  background-color: #063848;
+  left: 205px;
+  bottom: -40px;
+}
+
+.home img{
+  width: 250px;
+}

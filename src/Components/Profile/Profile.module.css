@@ -1,0 +1,46 @@
+.port {
+  padding-top: 120px;
+  text-align: center;
+}
+.layer {
+  position: absolute;
+  background-color: #1abc9ce6;
+  width: 89.5%;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  transition: all 1s;
+}
+.portes {
+  position: relative;
+}
+.portes:hover .layer {
+  opacity: 1;
+}
+
+.portHeader h1 {
+  position: relative;
+}
+
+.portImg {
+  cursor: pointer;
+}
+.portHeader h1::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 5px;
+  background-color: #063848;
+  right: 515px;
+  bottom: -23px;
+}
+
+.portHeader h1::before {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 5px;
+  background-color: #063848;
+  left: 515px;
+  bottom: -23px;
+}

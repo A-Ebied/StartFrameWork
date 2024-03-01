@@ -1,0 +1,23 @@
+.contact{
+    height: 90vh;
+}
+
+form h1::after{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 5px;
+    background-color: #063848;
+    right: 515px;
+    bottom: -23px;
+}
+
+form h1::before{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 5px;
+    background-color: #063848;
+    left: 515px;
+    bottom: -23px;
+}
